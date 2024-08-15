@@ -1,0 +1,25 @@
+export interface CompanyProductPrice {
+    id: number,
+    company_id : number,
+    product_id: number,
+    price: number,
+    saturday_price: number,
+    sunday_price: number,
+    discount_price: number,
+    price_per_m2: number,
+    included_m2: number,
+    no_elevator: number,
+    small_elevator: number,
+    big_elevator: number,
+    new_building: number,
+    price_per_km: number,
+    included_km: number,
+    basement_storage_price_per_m2: number,
+    included_m2_basement_storage: number,
+    roof_storage_price_per_m2: number,
+    included_m2_roof_storage: number,
+    included_meters_outdoor: number,
+    outdoor_price_per_meter: number,
+    description : string
+}
+
